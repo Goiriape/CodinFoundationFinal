@@ -1,0 +1,47 @@
+/* Resetear todas las partes de la pagina para que por defecto no tenga margenes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255,255);
+    font-size: 1em;
+    letter-spacing: 4px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: clamp(8px, 8px + 1.4vw, 50px);
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: clamp(8px, 8px + 1vw, 50px);
+    letter-spacing: 1.5px;
+    color: #919598;
+}
+
+h4{
+    font-family: 'Secular One', sans-serif;
+    font-size: clamp(5px, 5px + 1.2vw, 30px);
+    font-weight: lighter;
+    color: #f7ffff;
+}
+
+a{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    letter-spacing: 2px;
+}

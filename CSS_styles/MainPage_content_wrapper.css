@@ -1,0 +1,82 @@
+.content_wrapper{
+    background: radial-gradient(circle at top left, #424650 10%,black );
+    width: 100vw;
+    height: 80vh;
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+    .content_wrapper>.left_midle_content{
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: clamp(30px, 30px + 1vw, 70px);
+        justify-content: space-around;
+    }
+        span.Emoji{
+            vertical-align: auto;
+            font-size: 1.2em;
+        }
+
+        .content_wrapper>.left_midle_content>.buttons{
+            height: 12vh;
+            display: flex;
+            align-items: left;
+        }
+
+        
+        
+            #Sign_Up{
+                background-color:#4bce79;
+                border: none;
+                padding: 2vh 2vw;
+                border-radius: 5px;
+            }
+
+            #Learn_More{
+                background-color:#111111;
+                border:none;
+                margin: 0px 1vw;
+                padding: 2vh 2vw;
+                border-radius: 5px; 
+            }
+    .content_wrapper>.right_midle_content{
+        width: auto;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 10% 90%;
+    }
+
+        .content_wrapper>.right_midle_content>.imagen_description{
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+        }
+
+            .content_wrapper>.right_midle_content>.imagen_description h1{
+                width: 100%;
+                height: auto;
+                text-align: left;
+                margin-left: 20px;
+                margin-bottom: 5px;
+                font-size: clamp(5px, 5px + 1vw, 20px);
+                font-weight: bolder;
+            }
+
+        .content_wrapper>.right_midle_content>.img{
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+            object-fit: cover;
+        }
+
+            .content_wrapper>.right_midle_content>.img img{
+                /* height: clamp(50, 50px + 1.3vw, 500px);; */
+                height: auto;
+                width: 100%;
+                object-fit: cover;
+            }
